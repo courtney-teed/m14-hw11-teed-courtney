@@ -7,3 +7,46 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
 	display:block;
 }
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+header, main, footer {
+	text-align: center;
+}
+
+h1 {
+	font-size: 2rem;
+	color: #8B4513;
+}
+
+h2 {
+	font-size: 1.6rem;
+	color: #4682B4;
+}
+
+main {
+	color: #656565;
+}
+
+.page-content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+}
+
+footer {
+	color: #f2f2f2;
+	background-color: #4682B4;
+	padding: 10px;
+	font-size: 1rem;
+	font-weight: 300;
+}
